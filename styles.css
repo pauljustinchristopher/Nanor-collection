@@ -1,0 +1,50 @@
+.navbar-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+ .navbar-header .bi-search {
+    margin-right: 700px;
+    /* Add spacing between the icon and the brand name */
+    cursor: pointer;
+    /* Make the icon clickable */
+}
+
+.navbar-brand-centered {
+    margin-left: -50%;
+    font-size: 1.5rem;
+    /* Adjust font size as needed */
+    font-weight: bold;
+    /* Optional: Make it bold */
+}
+
+.navbar {
+    position: relative;
+    /* Ensure the navbar is positioned relative for absolute positioning to work */
+}
+
+.container-size {
+    max-width: 1200px;
+    /* Adjust the max-width as needed */
+    margin: 0 auto;
+    /* Center the container */
+    padding: 0 15px;
+    /* Optional: Add some padding */
+    height: 100px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between; /* Add space between the cards */
+    flex-wrap: wrap; /* Ensure cards wrap to the next row if there's not enough space */
+    gap: 5px; /* Optional: Add consistent spacing between cards */
+    margin: 20px 0; /* Optional: Add margin around the container */
+}
+
